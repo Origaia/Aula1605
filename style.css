@@ -1,0 +1,58 @@
+:root{
+    --corFundo: #845EC2;
+    --corPrincipal: #2C73D2;
+    --corSecundaria: #0089BA;
+    --corTerciaria: #008E9B;
+}
+body{
+    background-image: url("./IMG/fundo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div{
+
+}
+header{
+    background-color: transparent;
+    
+    height: 200px;
+}
+div{
+    width: 48%;
+    margin-left: 25px;
+    margin-right: auto;
+    display: inline-block;
+    border: 2px var(--corFundo) solid;
+    border-radius: 10px;
+    height: auto;
+}
+div ul{
+    text-align: left;
+}
+main{
+    margin: auto;
+}
+footer{
+    border: 3px red solid;
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    color: whitesmoke;
+}
+p{
+    color: azure;
+}
+/*ID*/
+#titulo{
+    color: black;
+    text-align: center;
+    padding: 75px;
+    margin: auto;
+    
+}
+/*Classes*/
+.conteudo-filme{
+    text-align: center;
+    margin-top: 5px;
+}
